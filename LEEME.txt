@@ -1,0 +1,17 @@
+El código fuente consta de las siguientes clases:
+
+-VERTEX: Abstrae la funcionalidad de un vértice identificado por 3 coordenadas "double".
+
+-TRIANGLE: Abstrae los datos que identifican a un triángulo formado por 3 vértices.
+
+-MESH: Contiene los datos que identifican a una figura (triángulos y vértices), además de funcionalidad de carga de la figura a partir de un archivo .sur. Además
+contiene funciones para aplicar las distintas transformaciones.
+
+-COMPARADOR: Implementada para el ordenamiento de vértices para su dibujo usando el "Algoritmo del pintor", utilizando su nivel en el eje Z.
+
+-MATRIZ: Contiene las matrices de rotación y escala, y las operaciones propias de matrices para implementar las transformaciones 
+(productos entre matrices, de un vértice y una matriz, etc.).
+
+-INTERFAZ: Implementa el main y contiene la información de la ventana que se usa para visualizar, los métodos de dibujo, etc.
+
+-VENTANA COLOR: Ventana de selección de color de la figura.
